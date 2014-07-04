@@ -1,0 +1,21 @@
+{
+    "name": "pedrotroller/phpetroleum",
+    "description": "Let's talk about PIPE !",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pedrotroller",
+            "email": "plazanet.pierre@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": { "PHPetroleum\\": "src" }
+    }
+}
