@@ -1,6 +1,6 @@
 {
     "name": "pedrotroller/phpetroleum",
-    "description": "Let's talk about PIPE !",
+    "description": "Because at least one good thing comes from petroleum industry",
     "license": "MIT",
     "keywords": [ "pipe", "async", "asynchronous", "communication", "fifo" ],
     "authors": [
