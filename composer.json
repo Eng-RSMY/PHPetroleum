@@ -2,6 +2,7 @@
     "name": "pedrotroller/phpetroleum",
     "description": "Let's talk about PIPE !",
     "license": "MIT",
+    "keywords": [ "pipe", "async", "asynchronous", "communication", "fifo" ],
     "authors": [
         {
             "name": "pedrotroller",
