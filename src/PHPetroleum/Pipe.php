@@ -44,7 +44,7 @@ class Pipe
      *
      * @param string $mode
      *
-     * @return mixed
+     * @return resource
      */
     public function open($mode)
     {
@@ -59,8 +59,8 @@ class Pipe
     /**
      * Write the content into the file
      *
-     * @param string $name
      *
+     * @param string $string
      * @return Pipe
      */
     public function write($string){

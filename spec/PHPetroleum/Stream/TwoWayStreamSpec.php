@@ -4,7 +4,6 @@ namespace spec\PHPetroleum\Stream;
 
 use PHPetroleum\Pipe;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class TwoWayStreamSpec extends ObjectBehavior
 {

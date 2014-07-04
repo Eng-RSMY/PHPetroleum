@@ -9,6 +9,16 @@ use PHPetroleum\Stream\WritableStream;
 class TwoWayStream implements ReadableStream, WritableStream
 {
     /**
+     * @var Pipe $reader
+     */
+    private $reader;
+
+    /**
+     * @var Pipe $writer
+     */
+    private $writer;
+
+    /**
      * @param Pipe $reader The pipe which data is received
      * @param Pipe $writer The pipe which data is sent
      *

@@ -4,7 +4,6 @@ namespace spec\PHPetroleum;
 
 use PHPetroleum\Pipe;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class PipeSpec extends ObjectBehavior
 {

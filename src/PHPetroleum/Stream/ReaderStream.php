@@ -8,6 +8,11 @@ use PHPetroleum\Stream\ReadableStream;
 class ReaderStream implements ReadableStream
 {
     /**
+     * @var Pipe $reader
+     */
+    private $reader;
+
+    /**
      * @param Pipe $reader The pipe which data is received
      *
      * @return void

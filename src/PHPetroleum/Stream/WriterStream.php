@@ -8,6 +8,11 @@ use PHPetroleum\Stream\WritableStream;
 class WriterStream implements WritableStream
 {
     /**
+     * @var Pipe $writer
+     */
+    private $writer;
+
+    /**
      * @param Pipe $writer The pipe which data is sent
      *
      * @return void
