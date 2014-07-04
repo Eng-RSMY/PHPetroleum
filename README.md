@@ -3,6 +3,7 @@
 Because at least one good thing comes from petroleum industry
 
 [![Build Status](https://travis-ci.org/PedroTroller/PHPetroleum.svg)](https://travis-ci.org/PedroTroller/PHPetroleum)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PedroTroller/PHPetroleum/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PedroTroller/PHPetroleum/?branch=master)
 
 ##Installation
 
