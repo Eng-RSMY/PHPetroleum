@@ -2,6 +2,8 @@
 ------------
 Because at least one good thing comes from petroleum industry
 
+[![Build Status](https://travis-ci.org/PedroTroller/PHPetroleum.svg)](https://travis-ci.org/PedroTroller/PHPetroleum)
+
 ##Installation
 
 ```bash
