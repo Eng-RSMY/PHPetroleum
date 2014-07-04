@@ -48,7 +48,7 @@ class PipeSpec extends ObjectBehavior
 
     function it_can_write_bigger_text()
     {
-        $array = [];
+        $array = array();
         for ($i = 1; $i < 100000; $i++) {
             $array[] = md5($i) . md5($i) . md5($i);
         }
@@ -58,5 +58,12 @@ class PipeSpec extends ObjectBehavior
         $this->write($text);
 
         $this->read()->shouldReturn($text);
+    }
+
+    function letGo()
+    {
+        if (is_file('/tmp/spec_file')) {
+            unlink('/tmp/spec_file');
+        }
     }
 }
